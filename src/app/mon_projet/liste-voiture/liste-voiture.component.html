@@ -1,0 +1,13 @@
+<body style="background-color:white #002233;">
+<h1 style="text-align: center;">voici mes derniere offres</h1>
+<br><br><br>
+
+<ul style="position: absolute;left:100px;">
+    <li *ngFor="let t of tabvoitures ; let i=index">
+
+        <app-voiture [pos]="i"></app-voiture>
+    </li>
+
+
+</ul>
+</body>
